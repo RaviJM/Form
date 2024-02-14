@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link href="./styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="logo-and-image-container">
+            <div class="odin-logo">
+                <img src="./odin-logo.png" alt="Cool Odin logo" id="odin-logo-image">
+                <p id="odin-logo-text">ODIN</p>
+            </div>
+        </div>
+        <div class="form-container">
+
+            <div class="info">
+                <div class="infos">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="it">now</span> to get started.</p>
+                </div>
+                <div class="infos">
+                    <p>You <span class="it">know</span> you want to.</p>
+                </div>
+            </div>
+
+            <div class="actual-form">
+                <div class="infos lets-do-this">
+                    <p>Let's do this!</p>
+                </div>
+
+                <form>
+                    <div class="fields">
+                        <div class="left-form">
+                            <label for="first_name">FIRST NAME</label>
+                            <br>
+                            <input type="text" id="first_name" name="first_name">
+
+                            <br>
+                            <label for="email">EMAIL</label>
+                            <br>
+                            <input type="email" id="email" name="email">
+                            
+                            <br>
+                            <label for="password">PASSWORD</label>
+                            <br>
+                            <input type="password" id="password" name="password" class="error">
+                        </div>
+
+                        <div class="right-form">
+                            <label for="last_name">LAST NAME</label>
+                            <br>
+                            <input type="text" id="last_name" name="last_name">
+
+                            <br>
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <br>
+                            <input type="number" id="phone_number" name="phone_number">
+                            
+                            <br>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <br>
+                            <input type="password" id="confirm-password" name="confirm-password" class="error">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" id="submit-button">Create Account</button>
+                        <p class="already-account-text">Already have an account? <a href="#" id="log-in-link">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="button-container">
+
+            </div>
+            
+        </div>
+    </body>
+</html>

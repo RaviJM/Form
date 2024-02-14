@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    margin: 0px;
+}    
+
+.logo-and-image-container{
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-repeat: round;
+}    
+
+.odin-logo{
+    margin-top: 140px;
+    width: 500px;
+    height: 140px;
+    opacity: 0.6;
+    background-color:black;
+    display: flex;
+}
+
+
+@font-face{
+    src: url("./Norse-Bold.otf");
+    font-family: "Norse-Bold";
+}
+
+
+
+#odin-logo-image{
+    height: 100%;
+    margin: auto;
+    margin-right: 0px;
+}
+
+#odin-logo-text{
+    font-size: 75px;
+    color: white;
+    margin: auto;
+    margin-left: 0px;
+    font-family: "Norse-Bold";
+}
+
+
+
+
+
+.form-container{
+    /* flex: 1; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}    
+
+.info{
+    background-color: rgb(244, 244, 244);
+    padding: 50px 100px 0px 50px;
+    font-size: 20px;
+    font-weight: 600;
+}    
+
+.it{
+    font-style: italic;
+}    
+
+.actual-form{
+    background-color: white;
+    /* padding: 0px 100px 0px 50px; */
+}    
+
+.infos{
+    font-size: 20px;
+    font-weight: 600;
+}    
+
+.fields{
+    display: flex;
+    gap: 120px;
+    margin: 50px;
+}
+
+.right-form, .left-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    background-color: rgb(244, 244, 244);
+}
+
+.already-account-text{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-bottom: 16px;
+}
+
+.lets-do-this{
+    margin-left: 50px;
+}
+
+#submit-button{
+    margin-top: 18px;
+    margin-left: 50px;
+    background-color: #596D48;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 8px;
+    padding: 10px 35px;
+    border-style: none;
+}
+
+#submit-button:hover{
+    background-color: #50643f;
+}
+
+#submit-button:active{
+    background-color: #3f5030;
+}
+
+input{
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-radius: 2px;
+    height: 25px;
+}
+
+input:focus{
+    outline: none;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 2px;
+    height: 25px;
+    box-shadow: 1px 1px 5px;
+}
+
+
+.error{
+    outline: none;
+    border-color: red;
+}
